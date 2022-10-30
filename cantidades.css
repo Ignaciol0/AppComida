@@ -1,0 +1,171 @@
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.vector-icon6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.open-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 22px;
+  right: 21px;
+  width: 16px;
+  height: 12px;
+}
+.cantidades-div1 {
+  position: absolute;
+  top: 15px;
+  left: calc(50% - 54.5px);
+  font-size: var(--font-size-2xl);
+  text-decoration: underline;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.navigation1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 50px;
+  overflow: hidden;
+}
+.cantidades-div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 749px;
+  overflow: hidden;
+}
+.cantidades,
+.comida-de-la-semana {
+  text-decoration: none;
+  position: absolute;
+  left: 23px;
+  color: inherit;
+  display: inline-block;
+  cursor: pointer;
+}
+.pesos-a {
+  top: 80px;
+}
+.pesos-a,
+.platos {
+  text-decoration: none;
+  position: absolute;
+  left: 23px;
+  color: inherit;
+  display: inline-block;
+  cursor: pointer;
+}
+.cantidades:active,
+.comida-de-la-semana:active,
+.pesos-a:active,
+.platos:active {
+  color: var(--color-indigo);
+}
+.comida-de-la-semana {
+  top: 52px;
+}
+.platos {
+  top: 108px;
+}
+.cantidades {
+  top: 136px;
+}
+.vector-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.close-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 12px;
+  height: 12px;
+}
+.vector-icon1 {
+  top: 98.5px;
+}
+.vector-icon1,
+.vector-icon2,
+.vector-icon3,
+.vector-icon4 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+}
+.vector-icon2 {
+  top: 70.5px;
+}
+.vector-icon3 {
+  top: 126.5px;
+}
+.vector-icon4 {
+  top: 154.5px;
+}
+.side-bar-div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 238px;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  max-width: 90%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.side-bar-div.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}

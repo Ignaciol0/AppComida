@@ -1,0 +1,373 @@
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.macarrones-tomate-div {
+  flex: 1;
+}
+.div,
+.macarrones-tomate-div {
+  position: relative;
+  display: inline-block;
+}
+.thums-upp-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 36px;
+  height: 18px;
+}
+.upp-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 36px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.down-button:active,
+.upp-button:active {
+  display: flex;
+  width: 34px;
+}
+.upp-button:active {
+  height: 16px;
+}
+.frame-icon {
+  position: absolute;
+  top: calc(50% - 27px);
+  left: calc(50% - 39.5px);
+  border-radius: var(--br-sm);
+  width: 36px;
+  height: 18px;
+}
+.down-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 21px;
+  height: 18px;
+  flex-shrink: 0;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.down-button:active {
+  height: 14px;
+}
+.selector-div {
+  top: 41px;
+}
+.selector-div,
+.selector-div1,
+.selector-div2,
+.selector-div3,
+.selector-div4,
+.selector-div5,
+.selector-div6,
+.selector-div7 {
+  position: absolute;
+  width: 89.07%;
+  right: 5.33%;
+  left: 5.6%;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-200);
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+}
+.selector-div1 {
+  top: 72px;
+}
+.selector-div2 {
+  top: 103px;
+}
+.selector-div3 {
+  top: 134px;
+}
+.selector-div4 {
+  top: 165px;
+}
+.selector-div5 {
+  top: 196px;
+}
+.selector-div6 {
+  top: 227px;
+}
+.selector-div7 {
+  top: 258px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: #bcbcbc;
+  width: 151px;
+  height: 13px;
+}
+.plato-div {
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  font-size: 7px;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.frame-form {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: var(--br-sm);
+  background-color: #dedede;
+  width: 146px;
+  height: 9px;
+}
+.frame-form:active {
+  background-color: #f1f1f1;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.search-div1 {
+  position: relative;
+  width: 151px;
+  height: 13px;
+  flex-shrink: 0;
+}
+.vector-icon7,
+.vector-icon8 {
+  position: absolute;
+  height: 77.95%;
+  width: 77.95%;
+  top: 8.33%;
+  right: 13.72%;
+  bottom: 13.72%;
+  left: 8.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon8 {
+  height: 16.51%;
+  width: 28.44%;
+  top: 25.16%;
+  right: 41.67%;
+  bottom: 58.33%;
+  left: 29.89%;
+}
+.search-icon-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 11px;
+  height: 11px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.search-div {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+.body-section {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 375px;
+  height: 281px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.vector-icon9 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.open-button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 22px;
+  right: 21px;
+  width: 16px;
+  height: 12px;
+}
+.pesos-div1 {
+  position: absolute;
+  top: 15px;
+  left: calc(50% - 29.5px);
+  font-size: var(--font-size-2xl);
+  text-decoration: underline;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.navigation2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 50px;
+  overflow: hidden;
+}
+.pesos-div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 749px;
+  overflow: hidden;
+}
+.cantidades,
+.comida-de-la-semana {
+  text-decoration: none;
+  position: absolute;
+  left: 23px;
+  color: inherit;
+  display: inline-block;
+  cursor: pointer;
+}
+.pesos-a {
+  top: 80px;
+}
+.pesos-a,
+.platos {
+  text-decoration: none;
+  position: absolute;
+  left: 23px;
+  color: inherit;
+  display: inline-block;
+  cursor: pointer;
+}
+.cantidades:active,
+.comida-de-la-semana:active,
+.pesos-a:active,
+.platos:active {
+  color: var(--color-indigo);
+}
+.comida-de-la-semana {
+  top: 52px;
+}
+.platos {
+  top: 108px;
+}
+.cantidades {
+  top: 136px;
+}
+.vector-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.close-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 12px;
+  height: 12px;
+}
+.vector-icon1 {
+  top: 98.5px;
+}
+.vector-icon1,
+.vector-icon2,
+.vector-icon3,
+.vector-icon4 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+}
+.vector-icon2 {
+  top: 70.5px;
+}
+.vector-icon3 {
+  top: 126.5px;
+}
+.vector-icon4 {
+  top: 154.5px;
+}
+.side-bar-div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 238px;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  max-width: 90%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.side-bar-div.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}
