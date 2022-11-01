@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.vector-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50.29px;
+  height: 44px;
+}
+.add-button,
+.plus-icon {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  width: 19.4px;
+  height: 19.4px;
+}
+.add-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  width: 50.29px;
+  height: 44px;
+}
+.add-button-div {
+  position: relative;
+  width: 100%;
+  height: 68px;
+}
