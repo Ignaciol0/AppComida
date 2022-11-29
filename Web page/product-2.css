@@ -1,0 +1,565 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div24 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-800);
+  height: 268px;
+}
+.copyright-ignacio-leal-20226 {
+  position: absolute;
+  bottom: 39px;
+  left: 641px;
+  text-decoration: underline;
+  display: inline-block;
+}
+.div29,
+.terms-of-service6 {
+  position: relative;
+  display: inline-block;
+}
+.terms-of-service6 {
+  text-decoration: underline;
+}
+.div29 {
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.terms-and-conditions6 {
+  position: absolute;
+  width: calc(100% - 1184px);
+  right: 592px;
+  bottom: 81px;
+  left: 592px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  color: var(--color-gray-400);
+}
+.home-div55 {
+  position: absolute;
+  top: 23.81%;
+  left: 23.68%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.home-button41 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 76px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.div30,
+.home-div56 {
+  position: relative;
+  display: inline-block;
+}
+.home-div56 {
+  position: absolute;
+  top: 23.81%;
+  left: 19.72%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+}
+.home-button42 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 137px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.home-div58 {
+  position: absolute;
+  top: 23.81%;
+  left: 26.3%;
+  display: inline-block;
+}
+.home-div57,
+.home-div59 {
+  font-size: var(--font-size-base);
+}
+.home-div57 {
+  position: relative;
+  width: 71px;
+  height: 42px;
+  flex-shrink: 0;
+  color: var(--olive-green-highlight);
+}
+.home-div59 {
+  position: absolute;
+  top: 23.81%;
+  left: 21.96%;
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.home-button43 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 91px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.footer-div6 {
+  position: absolute;
+  width: calc(100% - 864px);
+  right: 432px;
+  bottom: 184px;
+  left: 432px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+}
+.footer-section-div6 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 268px;
+  color: var(--color-gray-500);
+}
+.leal-span5 {
+  color: var(--color-white);
+}
+.mora-span6 {
+  color: var(--olive-green);
+}
+.lealmora-div6 {
+  position: absolute;
+  top: 0;
+  left: 48px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-karma);
+  text-align: left;
+  display: inline-block;
+}
+.fluent-emoji-flatolive-icon6 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.logo-button5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 208px;
+  height: 58px;
+  flex-shrink: 0;
+}
+.home-div60 {
+  left: 15.79%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+}
+.home-div60,
+.home-div61,
+.home-div63 {
+  position: absolute;
+  top: 16.67%;
+  display: inline-block;
+}
+.home-div61 {
+  left: 9.5%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+}
+.home-div63 {
+  left: 17.85%;
+}
+.home-div62 {
+  position: relative;
+  width: 71px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.home-div64 {
+  position: absolute;
+  top: 16.67%;
+  left: 12.07%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.rectangle-div25 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--olive-green);
+}
+.sign-up-div6 {
+  position: absolute;
+  height: 64.71%;
+  width: 80.42%;
+  top: 17.65%;
+  left: 9.79%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component-1-button6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 113px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.menu-div6,
+.navigation-div6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menu-div6 {
+  width: 530px;
+  flex-shrink: 0;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.navigation-div6 {
+  position: absolute;
+  top: 56px;
+  left: 120px;
+  width: 1200px;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-xl);
+}
+.bottle-7-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 179.69px;
+  height: 550px;
+  object-fit: cover;
+}
+.product-image-div2,
+.product-image-div3 {
+  position: absolute;
+  top: -12px;
+  left: 18px;
+  width: 179.69px;
+  height: 550px;
+}
+.product-image-div2 {
+  top: 231px;
+  left: 242px;
+  width: 216.41px;
+}
+.olive-oil-is-one-of-the-tastye1 {
+  position: absolute;
+  top: 256px;
+  left: 3.49px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 650.45px;
+  height: 86.07px;
+}
+.see-in-membership1 {
+  position: absolute;
+  top: 22px;
+  left: 7px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  display: inline-block;
+  font-family: var(--font-karma);
+  color: var(--olive-green);
+  text-align: left;
+}
+.see-membership-button1 {
+  cursor: pointer;
+  border: 1px solid var(--olive-green);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 404px;
+  left: 0;
+  border-radius: var(--br-md);
+  box-sizing: border-box;
+  width: 195px;
+  height: 58px;
+}
+.discount-div1 {
+  position: absolute;
+  top: 61.63px;
+  left: 112.58px;
+  font-weight: 300;
+  display: inline-block;
+}
+.span13 {
+  font-size: var(--font-size-4xl);
+}
+.b1,
+.price-div1 {
+  position: absolute;
+}
+.b1 {
+  top: -16px;
+  left: 0;
+  display: inline-block;
+  font-family: var(--font-karma);
+  color: var(--color-gold);
+  font-size: var(--font-size-5xl);
+}
+.price-div1 {
+  top: 135.37px;
+  left: 13.42px;
+  width: 112.58px;
+  height: 130px;
+  font-family: var(--font-roboto);
+}
+.a-span1 {
+  text-transform: uppercase;
+}
+.ppellation-of1 {
+  text-transform: lowercase;
+}
+.appellation-of-origin-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.appellation-of-origin-jan1 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 42px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 193px;
+  height: 20px;
+}
+.vector-icon7 {
+  position: absolute;
+  top: calc(50% - 11.61px);
+  left: calc(50% + 88.5px);
+  width: 22px;
+  height: 19.5px;
+}
+.denominacion-de-origen1 {
+  position: absolute;
+  top: 90px;
+  left: 2px;
+  width: 221px;
+  height: 26px;
+  color: var(--olive-green);
+}
+.virgin-extra-olive-oil-500ml-b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 42px;
+  display: inline-block;
+}
+.product-title-div1 {
+  position: absolute;
+  top: 0;
+  left: 0.18px;
+  width: 529px;
+  height: 42px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-300);
+}
+.purchase-b7 {
+  position: absolute;
+  top: 22px;
+  left: 42px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  display: inline-block;
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: left;
+}
+.purchase-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--olive-green);
+  position: absolute;
+  top: 404px;
+  left: 207px;
+  border-radius: var(--br-md);
+  width: 170px;
+  height: 58px;
+}
+.right-side-div1 {
+  position: absolute;
+  top: 259px;
+  left: 730px;
+  width: 653.94px;
+  height: 462px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.bottle-6-icon2 {
+  position: relative;
+  width: 90px;
+  height: 273px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div33,
+.virgin-extra-olive-oil-bottle5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.div33 {
+  top: 28px;
+  left: 83px;
+  font-size: var(--font-size-xl);
+}
+.pricetag-div2 {
+  position: absolute;
+  top: 3px;
+  left: 33px;
+  width: 194px;
+  height: 57px;
+}
+.price-tag-1l2 {
+  position: relative;
+  width: 259px;
+  height: 67px;
+  flex-shrink: 0;
+}
+.bottle-1l-button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.bottle-5-icon2 {
+  position: relative;
+  width: 116px;
+  height: 278px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div34 {
+  position: absolute;
+  top: 28px;
+  left: 96.5px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.price-tag-div3 {
+  position: relative;
+  width: 212px;
+  height: 57px;
+  flex-shrink: 0;
+}
+.price-tag-05l3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottle-025l-button1,
+.frame-div3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottle-025l-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-black);
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.frame-div3 {
+  position: absolute;
+  top: 874px;
+  left: 354px;
+  width: 733px;
+  height: 415px;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.product-2-div {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1607px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-karma);
+}

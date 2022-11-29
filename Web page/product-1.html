@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <title></title>
+
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./product-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+    />
+  </head>
+  <body>
+    <div class="product-1-div">
+      <div class="footer-section-div5">
+        <div class="rectangle-div22"></div>
+        <div class="copyright-ignacio-leal-20225">
+          Copyright @ Ignacio Leal 2022
+        </div>
+        <div class="terms-and-conditions5">
+          <div class="terms-of-service5">Terms of service</div>
+          <div class="div23">-</div>
+          <div class="terms-of-service5">Privacy policy</div>
+        </div>
+        <div class="footer-div5">
+          <button class="home-button34" id="homeButton">
+            <div class="home-div46">Home</div>
+          </button>
+          <div class="div24">-</div>
+          <button class="home-button35" id="homeButton1">
+            <div class="home-div47">Membership</div>
+          </button>
+          <div class="div24">-</div>
+          <div class="home-div48"><div class="home-div49">Shop</div></div>
+          <div class="div24">-</div>
+          <button class="home-button36" id="homeButton2">
+            <div class="home-div50" id="homeText3">Contact</div>
+          </button>
+        </div>
+      </div>
+      <div class="navigation-div5">
+        <button class="logo-button4" id="logoButton">
+          <div class="lealmora-div5">
+            <span class="leal-span4">Leal</span
+            ><span class="mora-span5">Mora</span>
+          </div>
+          <img
+            class="fluent-emoji-flatolive-icon5"
+            alt=""
+            src="public/fluentemojiflatolive2.svg"
+          />
+        </button>
+        <div class="menu-div5" id="menuContainer">
+          <button class="home-button34" id="homeButton3">
+            <div class="home-div51">Home</div></button
+          ><button class="home-button35" id="homeButton4">
+            <div class="home-div52">Membership</div></button
+          ><button class="home-button39" id="homeButton5">
+            <div class="home-div53">Shop</div></button
+          ><button class="home-button36" id="homeButton6">
+            <div class="home-div54">Contact</div></button
+          ><button class="component-1-button5">
+            <div class="rectangle-div23"></div>
+            <div class="sign-up-div5">Sign up</div>
+          </button>
+        </div>
+      </div>
+      <div class="product-image-div">
+        <div class="product-image-div1">
+          <img class="bottle-5-icon1" alt="" src="public/bottle-51@2x.png" />
+        </div>
+      </div>
+      <div class="right-side-div">
+        <div class="olive-oil-is-one-of-the-tastye">
+          Olive Oil is one of the tastyest ways to consume the beneficiary fats
+          your body need. This delicacy known has the black gold can be consume
+          in multiple ways.
+        </div>
+        <button class="see-membership-button" id="seeMembershipButton">
+          <b class="see-in-membership">See in Membership</b>
+        </button>
+        <div class="price-div">
+          <div class="discount-div"></div>
+          <b class="b"><span>8</span><span class="span12">€</span></b>
+        </div>
+        <div class="denominacion-de-origen">
+          <div class="appellation-of-origin-jan">
+            <span class="appellation-of-origin-container"
+              ><span class="a-span">A</span
+              ><span class="ppellation-of">ppellation of </span>O<span
+                class="ppellation-of"
+                >rigin</span
+              >
+              Jaén</span
+            >
+          </div>
+          <img class="vector-icon6" alt="" src="public/vector.svg" />
+        </div>
+        <div class="product-title-div">
+          <b class="virgin-extra-olive-oil-250ml-b"
+            >Virgin Extra Olive Oil 250mL Bottle</b
+          >
+        </div>
+        <button class="purchase-button" id="purchaseButton">
+          <b class="purchase-b6">Purchase</b>
+        </button>
+      </div>
+      <div class="frame-div2">
+        <button class="bottle-1l-button1" id="bottle1LButton">
+          <img class="bottle-6-icon1" alt="" src="public/bottle-61@2x.png" />
+          <div class="price-tag-1l1">
+            <div class="pricetag-div1">
+              <div class="virgin-extra-olive-oil-bottle3">
+                Virgin Extra Olive Oil Bottle 1l
+              </div>
+              <div class="div27">25€</div>
+            </div>
+          </div></button
+        ><button class="bottle-1l-button1" id="bottle05LButton">
+          <img class="bottle-7-icon1" alt="" src="public/bottle-71@2x.png" />
+          <div class="price-tag-05l2">
+            <div class="price-tag-div2">
+              <div class="virgin-extra-olive-oil-bottle3">
+                Virgin Extra Olive Oil Bottle 0.5l
+              </div>
+              <div class="div28">15€</div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      var homeButton = document.getElementById("homeButton");
+      if (homeButton) {
+        homeButton.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var homeButton1 = document.getElementById("homeButton1");
+      if (homeButton1) {
+        homeButton1.addEventListener("click", function (e) {
+          window.location.href = "./members.html";
+        });
+      }
+      
+      var homeText3 = document.getElementById("homeText3");
+      if (homeText3) {
+        homeText3.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+      
+      var homeButton2 = document.getElementById("homeButton2");
+      if (homeButton2) {
+        homeButton2.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+      
+      var logoButton = document.getElementById("logoButton");
+      if (logoButton) {
+        logoButton.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var homeButton3 = document.getElementById("homeButton3");
+      if (homeButton3) {
+        homeButton3.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var homeButton4 = document.getElementById("homeButton4");
+      if (homeButton4) {
+        homeButton4.addEventListener("click", function (e) {
+          window.location.href = "./members.html";
+        });
+      }
+      
+      var homeButton5 = document.getElementById("homeButton5");
+      if (homeButton5) {
+        homeButton5.addEventListener("click", function (e) {
+          window.location.href = "./product-page.html";
+        });
+      }
+      
+      var homeButton6 = document.getElementById("homeButton6");
+      if (homeButton6) {
+        homeButton6.addEventListener("click", function (e) {
+          window.location.href = "./contact.html";
+        });
+      }
+      
+      var menuContainer = document.getElementById("menuContainer");
+      if (menuContainer) {
+        menuContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var seeMembershipButton = document.getElementById("seeMembershipButton");
+      if (seeMembershipButton) {
+        seeMembershipButton.addEventListener("click", function (e) {
+          window.location.href = "./members.html";
+        });
+      }
+      
+      var purchaseButton = document.getElementById("purchaseButton");
+      if (purchaseButton) {
+        purchaseButton.addEventListener("click", function (e) {
+          window.location.href = "./payment-gateway.html";
+        });
+      }
+      
+      var bottle1LButton = document.getElementById("bottle1LButton");
+      if (bottle1LButton) {
+        bottle1LButton.addEventListener("click", function (e) {
+          window.location.href = "./product-3.html";
+        });
+      }
+      
+      var bottle05LButton = document.getElementById("bottle05LButton");
+      if (bottle05LButton) {
+        bottle05LButton.addEventListener("click", function (e) {
+          window.location.href = "./product-2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

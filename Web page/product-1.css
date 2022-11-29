@@ -1,0 +1,549 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div22 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-800);
+  height: 268px;
+}
+.copyright-ignacio-leal-20225 {
+  position: absolute;
+  bottom: 39px;
+  left: 641px;
+  text-decoration: underline;
+  display: inline-block;
+}
+.div23,
+.terms-of-service5 {
+  position: relative;
+  display: inline-block;
+}
+.terms-of-service5 {
+  text-decoration: underline;
+}
+.div23 {
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.terms-and-conditions5 {
+  position: absolute;
+  width: calc(100% - 1184px);
+  right: 592px;
+  bottom: 81px;
+  left: 592px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  color: var(--color-gray-400);
+}
+.home-div46 {
+  position: absolute;
+  top: 23.81%;
+  left: 23.68%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.home-button34 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 76px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.div24,
+.home-div47 {
+  position: relative;
+  display: inline-block;
+}
+.home-div47 {
+  position: absolute;
+  top: 23.81%;
+  left: 19.72%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+}
+.home-button35 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 137px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.home-div49 {
+  position: absolute;
+  top: 23.81%;
+  left: 26.3%;
+  display: inline-block;
+}
+.home-div48,
+.home-div50 {
+  font-size: var(--font-size-base);
+}
+.home-div48 {
+  position: relative;
+  width: 71px;
+  height: 42px;
+  flex-shrink: 0;
+  color: var(--olive-green-highlight);
+}
+.home-div50 {
+  position: absolute;
+  top: 23.81%;
+  left: 21.96%;
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+.home-button36 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 91px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.footer-div5 {
+  position: absolute;
+  width: calc(100% - 864px);
+  right: 432px;
+  bottom: 184px;
+  left: 432px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
+  font-size: var(--font-size-2xl);
+  color: var(--color-white);
+}
+.footer-section-div5 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 268px;
+}
+.leal-span4 {
+  color: var(--color-white);
+}
+.mora-span5 {
+  color: var(--olive-green);
+}
+.lealmora-div5 {
+  position: absolute;
+  top: 0;
+  left: 48px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-karma);
+  text-align: left;
+  display: inline-block;
+}
+.fluent-emoji-flatolive-icon5 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.logo-button4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 208px;
+  height: 58px;
+  flex-shrink: 0;
+}
+.home-div51,
+.home-div52,
+.home-div53 {
+  position: absolute;
+  top: 16.67%;
+  left: 15.79%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.home-div52,
+.home-div53 {
+  left: 9.5%;
+}
+.home-div53 {
+  left: 17.85%;
+}
+.home-button39 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 71px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.home-div54 {
+  position: absolute;
+  top: 16.67%;
+  left: 12.07%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.rectangle-div23 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--olive-green);
+}
+.sign-up-div5 {
+  position: absolute;
+  height: 64.71%;
+  width: 80.42%;
+  top: 17.65%;
+  left: 9.79%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component-1-button5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 113px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.menu-div5,
+.navigation-div5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menu-div5 {
+  width: 530px;
+  flex-shrink: 0;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.navigation-div5 {
+  position: absolute;
+  top: 56px;
+  left: 120px;
+  width: 1200px;
+  gap: var(--gap-2xl);
+}
+.bottle-5-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 216.41px;
+  height: 550px;
+  object-fit: cover;
+}
+.product-image-div,
+.product-image-div1 {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 216.41px;
+  height: 550px;
+}
+.product-image-div {
+  top: 231px;
+  left: 242px;
+}
+.olive-oil-is-one-of-the-tastye {
+  position: absolute;
+  top: 256px;
+  left: 3.49px;
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 650.45px;
+  height: 86.07px;
+}
+.see-in-membership {
+  position: absolute;
+  top: 22px;
+  left: 7px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  display: inline-block;
+  font-family: var(--font-karma);
+  color: var(--olive-green);
+  text-align: left;
+}
+.see-membership-button {
+  cursor: pointer;
+  border: 1px solid var(--olive-green);
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 404px;
+  left: 0;
+  border-radius: var(--br-md);
+  box-sizing: border-box;
+  width: 195px;
+  height: 58px;
+}
+.discount-div {
+  position: absolute;
+  top: 61.63px;
+  left: 112.58px;
+  font-weight: 300;
+  display: inline-block;
+}
+.span12 {
+  font-size: var(--font-size-4xl);
+}
+.b,
+.price-div {
+  position: absolute;
+}
+.b {
+  top: -16px;
+  left: 0;
+  display: inline-block;
+  font-family: var(--font-karma);
+  color: var(--color-gold);
+  font-size: var(--font-size-5xl);
+}
+.price-div {
+  top: 135.37px;
+  left: 13.42px;
+  width: 112.58px;
+  height: 130px;
+  font-family: var(--font-roboto);
+}
+.a-span {
+  text-transform: uppercase;
+}
+.ppellation-of {
+  text-transform: lowercase;
+}
+.appellation-of-origin-container {
+  line-break: anywhere;
+  width: 100%;
+}
+.appellation-of-origin-jan {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 42px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 193px;
+  height: 20px;
+}
+.vector-icon6 {
+  position: absolute;
+  top: calc(50% - 11.61px);
+  left: calc(50% + 88.5px);
+  width: 22px;
+  height: 19.5px;
+}
+.denominacion-de-origen {
+  position: absolute;
+  top: 90px;
+  left: 2px;
+  width: 221px;
+  height: 26px;
+  color: var(--olive-green);
+}
+.virgin-extra-olive-oil-250ml-b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.01em;
+  line-height: 42px;
+  display: inline-block;
+}
+.product-title-div {
+  position: absolute;
+  top: 0;
+  left: 0.18px;
+  width: 529px;
+  height: 42px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-300);
+}
+.purchase-b6 {
+  position: absolute;
+  top: 22px;
+  left: 42px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  display: inline-block;
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: left;
+}
+.purchase-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--olive-green);
+  position: absolute;
+  top: 404px;
+  left: 207px;
+  border-radius: var(--br-md);
+  width: 170px;
+  height: 58px;
+}
+.right-side-div {
+  position: absolute;
+  top: 259px;
+  left: 730px;
+  width: 653.94px;
+  height: 462px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.bottle-6-icon1 {
+  position: relative;
+  width: 90px;
+  height: 273px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div27,
+.virgin-extra-olive-oil-bottle3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.div27 {
+  top: 28px;
+  left: 83px;
+  font-size: var(--font-size-xl);
+}
+.pricetag-div1 {
+  position: absolute;
+  top: 3px;
+  left: 33px;
+  width: 194px;
+  height: 57px;
+}
+.price-tag-1l1 {
+  position: relative;
+  width: 259px;
+  height: 67px;
+  flex-shrink: 0;
+}
+.bottle-1l-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.bottle-7-icon1 {
+  position: relative;
+  width: 91px;
+  height: 278px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div28 {
+  position: absolute;
+  top: 28px;
+  left: 89px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.price-tag-div2 {
+  position: relative;
+  width: 205px;
+  height: 57px;
+  flex-shrink: 0;
+}
+.frame-div2,
+.price-tag-05l2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-div2 {
+  position: absolute;
+  top: 874px;
+  left: 354px;
+  width: 733px;
+  height: 415px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.product-1-div {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1607px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-500);
+  font-family: var(--font-karma);
+}
