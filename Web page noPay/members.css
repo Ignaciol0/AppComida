@@ -2,21 +2,16 @@ body {
   margin: 0;
   line-height: normal;
 }
-.rectangle-div8 {
-  position: absolute;
-  width: 100%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-gray-800);
-  height: 268px;
-}
 .copyright-ignacio-leal-20221 {
   position: absolute;
-  bottom: 39px;
-  left: 641px;
+  top: 195px;
+  left: calc(50% - 79px);
   text-decoration: underline;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 158px;
+  height: 17px;
 }
 .div4,
 .terms-of-service1 {
@@ -28,32 +23,30 @@ body {
 }
 .div4 {
   font-size: var(--font-size-lg);
-  color: var(--color-white);
+  color: var(--text-white);
 }
 .terms-and-conditions1 {
   position: absolute;
-  width: calc(100% - 1184px);
-  right: 592px;
-  bottom: 81px;
-  left: 592px;
+  top: 147px;
+  left: calc(50% - 128px);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-lg);
-  color: var(--color-gray-400);
+  gap: var(--gap-xl);
+  color: var(--color-gray-300);
 }
-.home-div12 {
+.home17 {
   position: absolute;
   top: 23.81%;
   left: 23.68%;
   font-size: var(--font-size-base);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
 }
-.home-button4 {
+.home16 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -64,36 +57,40 @@ body {
   flex-shrink: 0;
 }
 .div5,
-.home-div14 {
+.home19 {
   position: relative;
   display: inline-block;
 }
-.home-div14 {
+.home19 {
   position: absolute;
   top: 23.81%;
   left: 19.72%;
-}
-.home-div13,
-.home-div15 {
   font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--olive-green-highlight);
+  text-align: center;
 }
-.home-div13 {
+.home18 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: relative;
   width: 137px;
   height: 42px;
   flex-shrink: 0;
-  color: var(--olive-green-highlight);
 }
-.home-div15 {
+.home21 {
   position: absolute;
   top: 23.81%;
   left: 26.3%;
+  font-size: var(--font-size-base);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
 }
-.home-button5 {
+.home20 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -103,17 +100,17 @@ body {
   height: 42px;
   flex-shrink: 0;
 }
-.home-div16 {
+.home23 {
   position: absolute;
   top: 23.81%;
   left: 21.96%;
   font-size: var(--font-size-base);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
 }
-.home-button6 {
+.home22 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -123,48 +120,48 @@ body {
   height: 42px;
   flex-shrink: 0;
 }
-.footer-div1 {
+.footer1 {
   position: absolute;
-  width: calc(100% - 864px);
-  right: 432px;
-  bottom: 184px;
-  left: 432px;
+  top: 23px;
+  left: calc(50% - 288px);
+  width: 576px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-md);
+  gap: var(--gap-lg);
   font-size: var(--font-size-2xl);
-  color: var(--color-white);
+  color: var(--text-white);
 }
-.footer-section-div1 {
+.footer-section1 {
   position: absolute;
+  height: 20.56%;
   width: 100%;
+  top: 79.44%;
   right: 0;
   bottom: 0;
   left: 0;
-  height: 268px;
-  color: var(--color-gray-500);
+  background-color: var(--footer-background);
+  text-align: center;
 }
-.rectangle-div10,
-.rectangle-div9 {
+.rectangle-div7,
+.rectangle-div8 {
   position: absolute;
+  width: 100%;
   top: 0;
+  right: 0;
   left: 0;
   border-radius: var(--br-md);
   background-color: var(--olive-dark-green);
-  width: 350px;
   height: 330px;
 }
-.rectangle-div10 {
+.rectangle-div8 {
   height: 100%;
-  width: 100%;
-  right: 0;
   bottom: 0;
   border-radius: var(--br-lg);
   background-color: var(--non-vibrant-white);
 }
-.purchase-b3 {
+.purchase3 {
   position: absolute;
   top: 20.45%;
   left: 39.1%;
@@ -180,55 +177,67 @@ body {
   padding: 0;
   background-color: transparent;
   position: absolute;
+  width: 74.68%;
   top: 268px;
-  left: 44px;
-  width: 261.37px;
+  right: 12.75%;
+  left: 12.57%;
   height: 42px;
 }
-.bottle-per-month-of-choosen-oi2,
-.simple-div3 {
+.simple-title {
   position: absolute;
   top: 28px;
-  left: 130px;
+  left: calc(50% - 45px);
+  display: flex;
+  align-items: center;
+  width: 91px;
+  height: 44px;
+}
+.simple-perk1 {
+  position: absolute;
+  top: 162px;
+  left: 19%;
+  right: 19%;
+  font-size: var(--font-size-base);
   display: inline-block;
 }
-.bottle-per-month-of-choosen-oi2 {
-  top: 162px;
-  left: 67px;
-  font-size: var(--font-size-base);
-}
-.span3 {
+.monthly-price-simbols {
   font-size: var(--font-size-2xl);
 }
-.month-span3 {
+.month {
   font-size: var(--font-size-xl);
 }
-.month-div3 {
+.month6 {
   position: absolute;
   top: 72px;
-  left: 112px;
+  left: calc(50% - 63px);
   display: inline-block;
   font-size: var(--font-size-4xl);
 }
 .vector-icon3 {
   position: absolute;
+  width: 100%;
   top: 132px;
+  right: 0;
   left: 0;
-  width: 350px;
+  max-width: 100%;
+  overflow: hidden;
   height: 1px;
 }
-.rectangle-div11,
-.simple-div2 {
+.rectangle-div9,
+.simple-div {
   position: absolute;
   top: 0;
   left: 0;
-  width: 350px;
 }
-.simple-div2 {
+.simple-div {
+  width: 29.99%;
+  right: 70.01%;
   height: 330px;
   font-size: var(--font-size-2xl);
 }
-.rectangle-div11 {
+.rectangle-div9 {
+  width: 99.74%;
+  right: 0.26%;
   border-radius: var(--br-md);
   background-color: var(--olive-dark-green);
   height: 439px;
@@ -239,59 +248,87 @@ body {
   padding: 0;
   background-color: transparent;
   position: absolute;
+  width: 74.68%;
   top: 377px;
-  left: 44px;
-  width: 262.05px;
+  right: 12.78%;
+  left: 12.54%;
   height: 42px;
 }
-.tasting-kit-div1 {
+.economic-perks1{
   position: absolute;
-  top: 162px;
-  left: 137px;
+  top: 36.9%;
+  left: 19%;
+  right: 19%;
   display: inline-block;
 }
-.bottle-per-month-of-choosen-oi3,
-.recipy-book-for-cooking-with-o1 {
+.economic-perks2 {
   position: absolute;
-  top: 214px;
-  left: 67px;
+  top: 48.75%;
+  left: 19%;
+  right: 19%;
   display: inline-block;
 }
-.recipy-book-for-cooking-with-o1 {
-  top: 266px;
-  left: 66px;
-  text-align: center;
-}
-.off-in-oils1 {
-  font-size: var(--font-size-base);
-}
-.economic-div3,
-.off-in-oils-skincare-products1 {
+.economic-perks3 {
   position: absolute;
-  top: 318px;
-  left: 64px;
+  top: 60.59%;
+  left: 19%;
+  right: 19%;
   display: inline-block;
   font-size: var(--font-size-xl);
 }
-.economic-div3 {
-  top: 28px;
-  left: 110px;
-  font-size: var(--font-size-2xl);
+.economic-perks3-text {
+  font-size: var(--font-size-base);
 }
-.economic-div2,
+.economic-perks4 {
+  position: absolute;
+  top: 72.44%;
+  left: 18.24%;
+  display: inline-block;
+}
+
+.economic-title {
+  position: absolute;
+  top: 28px;
+  left: calc(50% - 65.45px);
+  font-size: var(--font-size-2xl);
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 44px;
+}
+.month-txt1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.monthly-price {
+  position: absolute;
+  top: 72px;
+  left: calc(50% - 63.45px);
+  display: flex;
+  align-items: center;
+  width: 126px;
+  height: 58px;
+  font-size: var(--font-size-4xl);
+}
 .vector-icon4 {
   position: absolute;
+  width: 99.74%;
   top: 132px;
-  left: 0.91px;
-  width: 350px;
+  right: 0;
+  left: 0.26%;
+  max-width: 100%;
+  overflow: hidden;
   height: 1px;
 }
-.economic-div2 {
+.economic-div {
+  position: absolute;
+  width: 30.07%;
   top: 0;
-  left: 411px;
-  width: 350.91px;
+  right: 34.71%;
+  left: 35.22%;
+  background-color: var(--olive-dark-green);
   height: 439px;
-  color: var(--color-white);
+  color: var(--text-white);
 }
 .call-to-action5 {
   cursor: pointer;
@@ -299,66 +336,81 @@ body {
   padding: 0;
   background-color: transparent;
   position: absolute;
+  width: 82.57%;
   top: 268px;
-  left: 31px;
-  width: 289px;
+  right: 8.57%;
+  left: 8.86%;
   height: 42px;
 }
-.all-economic-perks1,
-.premium-div3 {
+.premium-perks2 {
   position: absolute;
   top: 216px;
-  left: 113px;
+  left: 19%;
+  right: 19%;
   display: inline-block;
 }
-.premium-div3 {
+.premium-title {
+  position: absolute;
   top: 28px;
+  left: calc(50% - 62px);
   font-size: var(--font-size-2xl);
+  display: flex;
+  align-items: center;
+  width: 125px;
+  height: 44px;
 }
-.bottle-per-week-of-choosen-oil1 {
+.premium-perks1{
   position: absolute;
   top: 162px;
-  left: 72px;
+  left: 19%;
+  right: 19%;
   display: inline-block;
 }
-.premium-div2,
 .vector-icon5 {
-  position: absolute;
+  width: 100%;
   top: 131.5px;
+  right: 0;
   left: 0;
-  width: 350px;
+  max-width: 100%;
+  overflow: hidden;
   height: 1px;
 }
-.premium-div2 {
+.memberships,
+.premium-div,
+.vector-icon5 {
+  position: absolute;
+}
+.premium-div {
+  width: 29.99%;
   top: 0;
-  left: 817px;
+  right: 0;
+  left: 70.01%;
   height: 330px;
 }
-.memberships-div2 {
-  position: absolute;
+.memberships {
+  width: 81.04%;
   top: 365px;
-  left: 137px;
-  width: 1167px;
+  right: 9.44%;
+  left: 9.51%;
   height: 439px;
-  text-align: left;
   font-size: var(--font-size-base);
   color: var(--non-vibrant-white);
 }
-.memberships-div3 {
+.memberships-title {
   position: absolute;
   top: 221px;
-  left: 603px;
+  left: calc(50% - 117px);
   font-size: var(--font-size-4xl);
-  text-align: left;
   display: inline-block;
 }
-.leal-span {
-  color: var(--color-white);
+.leal1,
+.memberships-title {
+  color: var(--text-white);
 }
-.mora-span1 {
+.mora1 {
   color: var(--olive-green);
 }
-.lealmora-div1 {
+.lealmora1 {
   position: absolute;
   top: 0;
   left: 48px;
@@ -375,53 +427,42 @@ body {
   height: 42px;
   overflow: hidden;
 }
-.logo-button {
+.logo1 {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 208px;
   height: 58px;
-  flex-shrink: 0;
 }
-.home-div17,
-.home-div19 {
+.home25 {
+  left: 15.79%;
+}
+.home25,
+.home27,
+.home29,
+.home31 {
   position: absolute;
   top: 16.67%;
-  display: inline-block;
-}
-.home-div17 {
-  left: 15.79%;
   font-size: var(--font-size-xl);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
+  display: inline-block;
 }
-.home-div19 {
+.home27 {
   left: 9.5%;
 }
-.home-div18 {
-  position: relative;
-  width: 137px;
-  height: 42px;
-  flex-shrink: 0;
-}
-.home-div20,
-.home-div21 {
-  position: absolute;
-  top: 16.67%;
+.home29 {
   left: 17.85%;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-karma);
-  color: var(--color-white);
-  text-align: center;
-  display: inline-block;
 }
-.home-div21 {
+.home31 {
   left: 12.07%;
 }
-.rectangle-div15 {
+.rectangle-div13 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -432,7 +473,7 @@ body {
   border-radius: var(--br-md);
   background-color: var(--olive-green);
 }
-.sign-up-div1 {
+.sign-up1 {
   position: absolute;
   height: 64.71%;
   width: 80.42%;
@@ -440,13 +481,13 @@ body {
   left: 9.79%;
   font-size: var(--font-size-xl);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.component-1-button1 {
+.component-11 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -456,34 +497,33 @@ body {
   height: 41px;
   flex-shrink: 0;
 }
-.menu-div1,
-.navigation-div1 {
+.menu1 {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: 530px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: var(--gap-sm);
 }
-.menu-div1 {
-  width: 530px;
-  flex-shrink: 0;
-  gap: var(--gap-xs);
-}
-.navigation-div1 {
+.navigation1 {
   position: absolute;
+  width: 83.19%;
   top: 56px;
-  left: 120px;
-  width: 1200px;
-  gap: var(--gap-2xl);
-  font-size: var(--font-size-xl);
+  right: 8.4%;
+  left: 8.4%;
+  height: 58px;
 }
-.members-div {
+.members {
   position: relative;
   background-color: var(--color-black);
   width: 100%;
   height: 1221px;
   overflow: hidden;
-  text-align: center;
+  text-align: left;
   font-size: var(--font-size-sm);
-  color: var(--color-white);
+  color: var(--color-gray-400);
   font-family: var(--font-karma);
 }

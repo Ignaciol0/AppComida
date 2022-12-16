@@ -2,58 +2,53 @@ body {
   margin: 0;
   line-height: normal;
 }
-.rectangle-div22 {
+.leal6 {
+  color: var(--text-white);
+}
+.mora6 {
+  color: var(--olive-green);
+}
+.lealmora6 {
   position: absolute;
-  width: 100%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-gray-800);
-  height: 268px;
-}
-.copyright-ignacio-leal-20225 {
-  position: absolute;
-  bottom: 39px;
-  left: 641px;
-  text-decoration: underline;
-  display: inline-block;
-}
-.div23,
-.terms-of-service5 {
-  position: relative;
-  display: inline-block;
-}
-.terms-of-service5 {
-  text-decoration: underline;
-}
-.div23 {
-  font-size: var(--font-size-lg);
-  color: var(--color-white);
-}
-.terms-and-conditions5 {
-  position: absolute;
-  width: calc(100% - 1184px);
-  right: 592px;
-  bottom: 81px;
-  left: 592px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-lg);
-  color: var(--color-gray-400);
-}
-.home-div46 {
-  position: absolute;
-  top: 23.81%;
-  left: 23.68%;
-  font-size: var(--font-size-base);
+  top: 0;
+  left: 48px;
+  font-size: var(--font-size-4xl);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+}
+.fluent-emoji-flatolive-icon6 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.home97,
+.logo6 {
+  position: absolute;
+}
+.logo6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 1px;
+  width: 208px;
+  height: 58px;
+}
+.home97 {
+  top: 16.67%;
+  left: 15.79%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
 }
-.home-button34 {
+.home96 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -63,21 +58,17 @@ body {
   height: 42px;
   flex-shrink: 0;
 }
-.div24,
-.home-div47 {
-  position: relative;
+.home99 {
+  position: absolute;
+  top: 16.67%;
+  left: 9.5%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: center;
   display: inline-block;
 }
-.home-div47 {
-  position: absolute;
-  top: 23.81%;
-  left: 19.72%;
-  font-size: var(--font-size-base);
-  font-family: var(--font-karma);
-  color: var(--color-white);
-  text-align: center;
-}
-.home-button35 {
+.home98 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -87,34 +78,37 @@ body {
   height: 42px;
   flex-shrink: 0;
 }
-.home-div49 {
+.home101 {
   position: absolute;
-  top: 23.81%;
-  left: 26.3%;
+  top: 16.67%;
+  left: 17.85%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: center;
   display: inline-block;
 }
-.home-div48,
-.home-div50 {
-  font-size: var(--font-size-base);
-}
-.home-div48 {
+.home100 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: relative;
   width: 71px;
   height: 42px;
   flex-shrink: 0;
-  color: var(--olive-green-highlight);
 }
-.home-div50 {
+.home103 {
   position: absolute;
-  top: 23.81%;
-  left: 21.96%;
+  top: 16.67%;
+  left: 12.07%;
+  font-size: var(--font-size-xl);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
-  cursor: pointer;
 }
-.home-button36 {
+.home102 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -124,101 +118,7 @@ body {
   height: 42px;
   flex-shrink: 0;
 }
-.footer-div5 {
-  position: absolute;
-  width: calc(100% - 864px);
-  right: 432px;
-  bottom: 184px;
-  left: 432px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap-md);
-  font-size: var(--font-size-2xl);
-  color: var(--color-white);
-}
-.footer-section-div5 {
-  position: absolute;
-  width: 100%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 268px;
-}
-.leal-span4 {
-  color: var(--color-white);
-}
-.mora-span5 {
-  color: var(--olive-green);
-}
-.lealmora-div5 {
-  position: absolute;
-  top: 0;
-  left: 48px;
-  font-size: var(--font-size-4xl);
-  font-family: var(--font-karma);
-  text-align: left;
-  display: inline-block;
-}
-.fluent-emoji-flatolive-icon5 {
-  position: absolute;
-  top: 3px;
-  left: 0;
-  width: 42px;
-  height: 42px;
-  overflow: hidden;
-}
-.logo-button4 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  width: 208px;
-  height: 58px;
-  flex-shrink: 0;
-}
-.home-div51,
-.home-div52,
-.home-div53 {
-  position: absolute;
-  top: 16.67%;
-  left: 15.79%;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-karma);
-  color: var(--color-white);
-  text-align: center;
-  display: inline-block;
-}
-.home-div52,
-.home-div53 {
-  left: 9.5%;
-}
-.home-div53 {
-  left: 17.85%;
-}
-.home-button39 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  width: 71px;
-  height: 42px;
-  flex-shrink: 0;
-}
-.home-div54 {
-  position: absolute;
-  top: 16.67%;
-  left: 12.07%;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-karma);
-  color: var(--color-white);
-  text-align: center;
-  display: inline-block;
-}
-.rectangle-div23 {
+.rectangle-div18 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -229,7 +129,7 @@ body {
   border-radius: var(--br-md);
   background-color: var(--olive-green);
 }
-.sign-up-div5 {
+.sign-up6 {
   position: absolute;
   height: 64.71%;
   width: 80.42%;
@@ -237,13 +137,13 @@ body {
   left: 9.79%;
   font-size: var(--font-size-xl);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.component-1-button5 {
+.component-16 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -253,58 +153,60 @@ body {
   height: 41px;
   flex-shrink: 0;
 }
-.menu-div5,
-.navigation-div5 {
+.menu6 {
+  position: absolute;
+  top: 8px;
+  right: 1px;
+  width: 530px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-.menu-div5 {
-  width: 530px;
-  flex-shrink: 0;
-  gap: var(--gap-xs);
+  gap: var(--gap-sm);
   cursor: pointer;
 }
-.navigation-div5 {
+.navigation6 {
   position: absolute;
+  width: 83.33%;
   top: 56px;
-  left: 120px;
-  width: 1200px;
-  gap: var(--gap-2xl);
+  right: 8.33%;
+  left: 8.33%;
+  height: 58px;
 }
-.bottle-5-icon1 {
-  position: absolute;
+.bottle-7-icon2 {
   top: 0;
   left: 0;
-  width: 216.41px;
-  height: 550px;
+  width: 179.69px;
   object-fit: cover;
 }
-.product-image-div,
-.product-image-div1 {
+.bottle-7-icon2,
+.product-image2,
+.product-image3 {
   position: absolute;
-  top: -12px;
-  left: 0;
-  width: 216.41px;
   height: 550px;
 }
-.product-image-div {
+.product-image3 {
+  top: -12px;
+  left: 18px;
+  width: 179.69px;
+}
+.product-image2 {
   top: 231px;
   left: 242px;
+  width: 216.41px;
 }
-.olive-oil-is-one-of-the-tastye {
+.olive-oil-is-one-of-the-tastye1 {
   position: absolute;
   top: 256px;
-  left: 3.49px;
+  right: 0.18px;
   font-size: var(--font-size-base);
   font-weight: 300;
   display: flex;
   align-items: center;
-  width: 650.45px;
-  height: 86.07px;
+  width: 526px;
+  height: 86px;
 }
-.see-in-membership {
+.see-in-membership1 {
   position: absolute;
   top: 22px;
   left: 7px;
@@ -316,34 +218,34 @@ body {
   color: var(--olive-green);
   text-align: left;
 }
-.see-membership-button {
+.see-membership1 {
   cursor: pointer;
   border: 1px solid var(--olive-green);
   padding: 0;
   background-color: transparent;
   position: absolute;
   top: 404px;
-  left: 0;
+  right: 334.18px;
   border-radius: var(--br-md);
   box-sizing: border-box;
   width: 195px;
   height: 58px;
 }
-.discount-div {
+.discount1 {
   position: absolute;
   top: 61.63px;
   left: 112.58px;
   font-weight: 300;
   display: inline-block;
 }
-.span12 {
+.span13 {
   font-size: var(--font-size-4xl);
 }
-.b,
-.price-div {
+.b1,
+.price1 {
   position: absolute;
 }
-.b {
+.b1 {
   top: -16px;
   left: 0;
   display: inline-block;
@@ -351,24 +253,24 @@ body {
   color: var(--color-gold);
   font-size: var(--font-size-5xl);
 }
-.price-div {
+.price1 {
   top: 135.37px;
-  left: 13.42px;
+  right: 403.18px;
   width: 112.58px;
   height: 130px;
   font-family: var(--font-roboto);
 }
-.a-span {
+.a1 {
   text-transform: uppercase;
 }
-.ppellation-of {
+.ppellation-of1 {
   text-transform: lowercase;
 }
-.appellation-of-origin-container {
+.appellation-of-origin-container1 {
   line-break: anywhere;
   width: 100%;
 }
-.appellation-of-origin-jan {
+.appellation-of-origin-jan1 {
   position: absolute;
   top: 4px;
   left: 0;
@@ -380,22 +282,22 @@ body {
   width: 193px;
   height: 20px;
 }
-.vector-icon6 {
+.vector-icon7 {
   position: absolute;
   top: calc(50% - 11.61px);
   left: calc(50% + 88.5px);
   width: 22px;
   height: 19.5px;
 }
-.denominacion-de-origen {
+.denominacion-de-origen1 {
   position: absolute;
   top: 90px;
-  left: 2px;
+  right: 306.18px;
   width: 221px;
   height: 26px;
   color: var(--olive-green);
 }
-.virgin-extra-olive-oil-250ml-b {
+.virgin-extra-olive-oil-500ml-b {
   position: absolute;
   top: 0;
   left: 0;
@@ -403,16 +305,16 @@ body {
   line-height: 42px;
   display: inline-block;
 }
-.product-title-div {
+.product-title1 {
   position: absolute;
   top: 0;
-  left: 0.18px;
+  right: 0;
   width: 529px;
   height: 42px;
   font-size: var(--font-size-3xl);
-  color: var(--color-gray-300);
+  color: var(--color-gray-200);
 }
-.purchase-b6 {
+.purchase9 {
   position: absolute;
   top: 22px;
   left: 42px;
@@ -421,129 +323,255 @@ body {
   line-height: 20px;
   display: inline-block;
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: left;
 }
-.purchase-button {
+.purchase8 {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: var(--olive-green);
   position: absolute;
   top: 404px;
-  left: 207px;
+  right: 152.18px;
   border-radius: var(--br-md);
   width: 170px;
   height: 58px;
 }
-.right-side-div {
+.product-info1,
+.right-side1 {
   position: absolute;
-  top: 259px;
-  left: 730px;
-  width: 653.94px;
   height: 462px;
-  text-align: left;
-  font-size: var(--font-size-lg);
-  color: var(--color-white);
 }
-.bottle-6-icon1 {
+.right-side1 {
+  top: 0;
+  right: 0;
+  width: 529.18px;
+}
+.product-info1 {
+  width: calc(100% - 910.82px);
+  top: 259px;
+  right: 180.82px;
+  left: 730px;
+}
+.bottle-6-icon2 {
   position: relative;
   width: 90px;
   height: 273px;
   flex-shrink: 0;
   object-fit: cover;
 }
-.div27,
-.virgin-extra-olive-oil-bottle3 {
+.div29,
+.virgin-extra-olive-oil-bottle5 {
   position: absolute;
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+}
+.virgin-extra-olive-oil-bottle5 {
   top: 0;
   left: 0;
   font-size: var(--font-size-base);
-  font-family: var(--font-karma);
-  color: var(--color-white);
-  text-align: left;
-  display: inline-block;
 }
-.div27 {
+.div29 {
   top: 28px;
   left: 83px;
   font-size: var(--font-size-xl);
 }
-.pricetag-div1 {
+.pricetag2 {
   position: absolute;
   top: 3px;
   left: 33px;
   width: 194px;
   height: 57px;
 }
-.price-tag-1l1 {
+.price-tag-1l2 {
   position: relative;
   width: 259px;
   height: 67px;
   flex-shrink: 0;
 }
-.bottle-1l-button1 {
+.bottle-1l2 {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  align-self: stretch;
-  flex: 1;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 366.5px);
+  width: 295px;
+  height: 415px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-sm);
+  gap: var(--gap-md);
 }
-.bottle-7-icon1 {
+.bottle-5-icon2 {
   position: relative;
-  width: 91px;
+  width: 116px;
   height: 278px;
   flex-shrink: 0;
   object-fit: cover;
 }
-.div28 {
+.div30 {
   position: absolute;
   top: 28px;
-  left: 89px;
+  left: 96.5px;
   font-size: var(--font-size-xl);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: left;
   display: inline-block;
 }
-.price-tag-div2 {
+.price-tag3 {
   position: relative;
-  width: 205px;
+  width: 212px;
   height: 57px;
   flex-shrink: 0;
 }
-.frame-div2,
-.price-tag-05l2 {
+.price-tag-05l3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
+.bottle-025l1,
 .frame-div2 {
   position: absolute;
-  top: 874px;
-  left: 354px;
-  width: 733px;
   height: 415px;
+}
+.bottle-025l1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-black);
+  top: 0;
+  left: calc(50% + 71.5px);
+  width: 295px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.frame-div2 {
+  width: 50.9%;
+  top: 874px;
+  right: 24.51%;
+  left: 24.58%;
+}
+.copyright-ignacio-leal-20226 {
+  position: absolute;
+  top: 195px;
+  left: calc(50% - 79px);
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 158px;
+  height: 17px;
+}
+.div31,
+.terms-of-service6 {
+  position: relative;
+  display: inline-block;
+}
+.terms-of-service6 {
+  text-decoration: underline;
+}
+.div31 {
+  font-size: var(--font-size-lg);
+  color: var(--text-white);
+}
+.terms-and-conditions6 {
+  position: absolute;
+  top: 147px;
+  left: calc(50% - 128px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  color: var(--color-gray-300);
+}
+.home105 {
+  position: absolute;
+  top: 23.81%;
+  left: 23.68%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: center;
+  display: inline-block;
+}
+.div32,
+.home107,
+.home109 {
+  position: relative;
+  display: inline-block;
+}
+.home107,
+.home109 {
+  position: absolute;
+  top: 23.81%;
+  left: 19.72%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: center;
+}
+.home109 {
+  left: 26.3%;
+  color: var(--olive-green-highlight);
+}
+.footer6,
+.home111 {
+  position: absolute;
+  color: var(--text-white);
+}
+.home111 {
+  top: 23.81%;
+  left: 21.96%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  text-align: center;
+  display: inline-block;
+}
+.footer6 {
+  top: 23px;
+  left: calc(50% - 288px);
+  width: 576px;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-xl);
+  gap: var(--gap-lg);
+  font-size: var(--font-size-2xl);
 }
-.product-1-div {
+.footer-section6 {
+  position: absolute;
+  width: 100%;
+  top: 1337px;
+  right: 0;
+  left: 0;
+  background-color: var(--footer-background);
+  height: 270px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+}
+.product-2 {
   position: relative;
   background-color: var(--color-black);
   width: 100%;
   height: 1607px;
   overflow: hidden;
-  text-align: center;
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-500);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--text-white);
   font-family: var(--font-karma);
 }

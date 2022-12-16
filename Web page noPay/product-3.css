@@ -2,58 +2,51 @@ body {
   margin: 0;
   line-height: normal;
 }
-.rectangle-div24 {
+.copyright-ignacio-leal-20227 {
   position: absolute;
-  width: 100%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-gray-800);
-  height: 268px;
-}
-.copyright-ignacio-leal-20226 {
-  position: absolute;
-  bottom: 39px;
-  left: 641px;
+  top: 195px;
+  left: calc(50% - 79px);
   text-decoration: underline;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 158px;
+  height: 17px;
 }
-.div29,
-.terms-of-service6 {
+.div35,
+.terms-of-service7 {
   position: relative;
   display: inline-block;
 }
-.terms-of-service6 {
+.terms-of-service7 {
   text-decoration: underline;
 }
-.div29 {
+.div35 {
   font-size: var(--font-size-lg);
-  color: var(--color-white);
+  color: var(--text-white);
 }
-.terms-and-conditions6 {
+.terms-and-conditions7 {
   position: absolute;
-  width: calc(100% - 1184px);
-  right: 592px;
-  bottom: 81px;
-  left: 592px;
+  top: 147px;
+  left: calc(50% - 128px);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-lg);
-  color: var(--color-gray-400);
+  gap: var(--gap-xl);
+  color: var(--color-gray-300);
 }
-.home-div55 {
+.home113 {
   position: absolute;
   top: 23.81%;
   left: 23.68%;
   font-size: var(--font-size-base);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
 }
-.home-button41 {
+.home112 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -63,21 +56,21 @@ body {
   height: 42px;
   flex-shrink: 0;
 }
-.div30,
-.home-div56 {
+.div36,
+.home115 {
   position: relative;
   display: inline-block;
 }
-.home-div56 {
+.home115 {
   position: absolute;
   top: 23.81%;
   left: 19.72%;
   font-size: var(--font-size-base);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
 }
-.home-button42 {
+.home114 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -87,33 +80,37 @@ body {
   height: 42px;
   flex-shrink: 0;
 }
-.home-div58 {
+.home117 {
   position: absolute;
   top: 23.81%;
   left: 26.3%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--olive-green-highlight);
+  text-align: center;
   display: inline-block;
 }
-.home-div57,
-.home-div59 {
-  font-size: var(--font-size-base);
-}
-.home-div57 {
+.home116 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: relative;
   width: 71px;
   height: 42px;
   flex-shrink: 0;
-  color: var(--olive-green-highlight);
 }
-.home-div59 {
+.home119 {
   position: absolute;
   top: 23.81%;
   left: 21.96%;
+  font-size: var(--font-size-base);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
 }
-.home-button43 {
+.home118 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -123,36 +120,35 @@ body {
   height: 42px;
   flex-shrink: 0;
 }
-.footer-div6 {
+.footer7 {
   position: absolute;
-  width: calc(100% - 864px);
-  right: 432px;
-  bottom: 184px;
-  left: 432px;
+  top: 23px;
+  left: calc(50% - 288px);
+  width: 576px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-md);
+  gap: var(--gap-lg);
   font-size: var(--font-size-2xl);
-  color: var(--color-white);
+  color: var(--text-white);
 }
-.footer-section-div6 {
+.footer-section7 {
   position: absolute;
   width: 100%;
+  top: 1337px;
   right: 0;
-  bottom: 0;
   left: 0;
-  height: 268px;
-  color: var(--color-gray-500);
+  background-color: var(--footer-background);
+  height: 270px;
 }
-.leal-span5 {
-  color: var(--color-white);
+.leal7 {
+  color: var(--text-white);
 }
-.mora-span6 {
+.mora7 {
   color: var(--olive-green);
 }
-.lealmora-div6 {
+.lealmora7 {
   position: absolute;
   top: 0;
   left: 48px;
@@ -161,7 +157,7 @@ body {
   text-align: left;
   display: inline-block;
 }
-.fluent-emoji-flatolive-icon6 {
+.fluent-emoji-flatolive-icon7 {
   position: absolute;
   top: 3px;
   left: 0;
@@ -169,57 +165,42 @@ body {
   height: 42px;
   overflow: hidden;
 }
-.logo-button5 {
+.logo7 {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 1px;
   width: 208px;
   height: 58px;
-  flex-shrink: 0;
 }
-.home-div60 {
+.home121 {
   left: 15.79%;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-karma);
-  color: var(--color-white);
-  text-align: center;
 }
-.home-div60,
-.home-div61,
-.home-div63 {
+.home121,
+.home123,
+.home125,
+.home127 {
   position: absolute;
   top: 16.67%;
-  display: inline-block;
-}
-.home-div61 {
-  left: 9.5%;
   font-size: var(--font-size-xl);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
+  display: inline-block;
 }
-.home-div63 {
+.home123 {
+  left: 9.5%;
+}
+.home125 {
   left: 17.85%;
 }
-.home-div62 {
-  position: relative;
-  width: 71px;
-  height: 42px;
-  flex-shrink: 0;
-}
-.home-div64 {
-  position: absolute;
-  top: 16.67%;
+.home127 {
   left: 12.07%;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-karma);
-  color: var(--color-white);
-  text-align: center;
-  display: inline-block;
 }
-.rectangle-div25 {
+.rectangle-div19 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -230,7 +211,7 @@ body {
   border-radius: var(--br-md);
   background-color: var(--olive-green);
 }
-.sign-up-div6 {
+.sign-up7 {
   position: absolute;
   height: 64.71%;
   width: 80.42%;
@@ -238,13 +219,13 @@ body {
   left: 9.79%;
   font-size: var(--font-size-xl);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.component-1-button6 {
+.component-17 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -254,60 +235,64 @@ body {
   height: 41px;
   flex-shrink: 0;
 }
-.menu-div6,
-.navigation-div6 {
+.menu7 {
+  position: absolute;
+  top: 8px;
+  right: 1px;
+  width: 530px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-.menu-div6 {
-  width: 530px;
-  flex-shrink: 0;
-  gap: var(--gap-xs);
+  gap: var(--gap-sm);
   cursor: pointer;
 }
-.navigation-div6 {
+.navigation7 {
   position: absolute;
+  width: 83.33%;
   top: 56px;
-  left: 120px;
-  width: 1200px;
-  gap: var(--gap-2xl);
-  font-size: var(--font-size-xl);
+  right: 8.33%;
+  left: 8.33%;
+  height: 58px;
 }
-.bottle-7-icon2 {
-  position: absolute;
+.bottle-6-icon3 {
   top: 0;
-  left: 0;
-  width: 179.69px;
+  width: 181.25px;
+}
+.bottle-6-icon3,
+.product-image4,
+.product-image5 {
+  position: absolute;
   height: 550px;
+}
+.product-image5 {
+  top: 0;
+  width: 181.25px;
+}
+.bottle-6-icon3 {
+  left: 0;
   object-fit: cover;
 }
-.product-image-div2,
-.product-image-div3 {
-  position: absolute;
-  top: -12px;
-  left: 18px;
-  width: 179.69px;
-  height: 550px;
+.product-image5 {
+  left: 17px;
 }
-.product-image-div2 {
+.product-image4 {
   top: 231px;
   left: 242px;
   width: 216.41px;
 }
-.olive-oil-is-one-of-the-tastye1 {
+.olive-oil-is-one-of-the-tastye2 {
   position: absolute;
   top: 256px;
-  left: 3.49px;
+  left: 3px;
   font-size: var(--font-size-base);
   font-weight: 300;
   display: flex;
   align-items: center;
-  width: 650.45px;
-  height: 86.07px;
+  width: 458px;
+  height: 86px;
 }
-.see-in-membership1 {
+.see-in-membership2 {
   position: absolute;
   top: 22px;
   left: 7px;
@@ -319,7 +304,7 @@ body {
   color: var(--olive-green);
   text-align: left;
 }
-.see-membership-button1 {
+.see-membership2 {
   cursor: pointer;
   border: 1px solid var(--olive-green);
   padding: 0;
@@ -332,21 +317,21 @@ body {
   width: 195px;
   height: 58px;
 }
-.discount-div1 {
+.discount2 {
   position: absolute;
   top: 61.63px;
   left: 112.58px;
   font-weight: 300;
   display: inline-block;
 }
-.span13 {
+.span14 {
   font-size: var(--font-size-4xl);
 }
-.b1,
-.price-div1 {
+.b2,
+.price2 {
   position: absolute;
 }
-.b1 {
+.b2 {
   top: -16px;
   left: 0;
   display: inline-block;
@@ -354,24 +339,24 @@ body {
   color: var(--color-gold);
   font-size: var(--font-size-5xl);
 }
-.price-div1 {
+.price2 {
   top: 135.37px;
   left: 13.42px;
   width: 112.58px;
   height: 130px;
   font-family: var(--font-roboto);
 }
-.a-span1 {
+.a2 {
   text-transform: uppercase;
 }
-.ppellation-of1 {
+.ppellation-of2 {
   text-transform: lowercase;
 }
-.appellation-of-origin-container1 {
+.appellation-of-origin-container2 {
   line-break: anywhere;
   width: 100%;
 }
-.appellation-of-origin-jan1 {
+.appellation-of-origin-jan2 {
   position: absolute;
   top: 4px;
   left: 0;
@@ -383,14 +368,14 @@ body {
   width: 193px;
   height: 20px;
 }
-.vector-icon7 {
+.vector-icon8 {
   position: absolute;
   top: calc(50% - 11.61px);
   left: calc(50% + 88.5px);
   width: 22px;
   height: 19.5px;
 }
-.denominacion-de-origen1 {
+.denominacion-de-origen2 {
   position: absolute;
   top: 90px;
   left: 2px;
@@ -398,7 +383,7 @@ body {
   height: 26px;
   color: var(--olive-green);
 }
-.virgin-extra-olive-oil-500ml-b {
+.virgin-extra-olive-oil-1l-bott {
   position: absolute;
   top: 0;
   left: 0;
@@ -406,16 +391,16 @@ body {
   line-height: 42px;
   display: inline-block;
 }
-.product-title-div1 {
+.product-title2 {
   position: absolute;
   top: 0;
   left: 0.18px;
   width: 529px;
   height: 42px;
   font-size: var(--font-size-3xl);
-  color: var(--color-gray-300);
+  color: var(--color-gray-200);
 }
-.purchase-b7 {
+.purchase11 {
   position: absolute;
   top: 22px;
   left: 42px;
@@ -424,10 +409,10 @@ body {
   line-height: 20px;
   display: inline-block;
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: left;
 }
-.purchase-button1 {
+.purchase10 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -439,120 +424,130 @@ body {
   width: 170px;
   height: 58px;
 }
-.right-side-div1 {
+.product-info2,
+.right-side2 {
   position: absolute;
-  top: 259px;
-  left: 730px;
-  width: 653.94px;
   height: 462px;
-  text-align: left;
-  font-size: var(--font-size-lg);
 }
-.bottle-6-icon2 {
-  position: relative;
-  width: 90px;
-  height: 273px;
-  flex-shrink: 0;
-  object-fit: cover;
-}
-.div33,
-.virgin-extra-olive-oil-bottle5 {
-  position: absolute;
+.right-side2 {
   top: 0;
   left: 0;
-  font-size: var(--font-size-base);
-  font-family: var(--font-karma);
-  color: var(--color-white);
+  width: 529.18px;
+}
+.product-info2 {
+  width: calc(100% - 786.06px);
+  top: 259px;
+  right: 56.06px;
+  left: 730px;
   text-align: left;
-  display: inline-block;
+  font-size: var(--font-size-lg);
+  color: var(--text-white);
 }
-.div33 {
-  top: 28px;
-  left: 83px;
-  font-size: var(--font-size-xl);
-}
-.pricetag-div2 {
-  position: absolute;
-  top: 3px;
-  left: 33px;
-  width: 194px;
-  height: 57px;
-}
-.price-tag-1l2 {
-  position: relative;
-  width: 259px;
-  height: 67px;
-  flex-shrink: 0;
-}
-.bottle-1l-button2 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  align-self: stretch;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: var(--gap-sm);
-}
-.bottle-5-icon2 {
+.bottle-5-icon3 {
   position: relative;
   width: 116px;
   height: 278px;
   flex-shrink: 0;
   object-fit: cover;
 }
-.div34 {
+.div39,
+.virgin-extra-olive-oil-bottle7 {
   position: absolute;
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+}
+.virgin-extra-olive-oil-bottle7 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+}
+.div39 {
   top: 28px;
   left: 96.5px;
   font-size: var(--font-size-xl);
-  font-family: var(--font-karma);
-  color: var(--color-white);
-  text-align: left;
-  display: inline-block;
 }
-.price-tag-div3 {
+.price-tag4 {
   position: relative;
   width: 212px;
   height: 57px;
   flex-shrink: 0;
 }
-.price-tag-05l3 {
+.bottle-025l2,
+.price-tag-05l4 {
   display: flex;
   flex-direction: column;
+}
+.price-tag-05l4 {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.bottle-025l-button1,
-.frame-div3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.bottle-025l-button1 {
+.bottle-025l2 {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: var(--color-black);
-  align-self: stretch;
-  flex: 1;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 366.5px);
+  width: 295px;
+  height: 415px;
   overflow: hidden;
-  flex-direction: column;
-  gap: var(--gap-sm);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
 }
+.bottle-7-icon3 {
+  position: relative;
+  width: 91px;
+  height: 278px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div40 {
+  position: absolute;
+  top: 28px;
+  left: 89px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: left;
+  display: inline-block;
+}
+.price-tag5 {
+  position: relative;
+  width: 205px;
+  height: 57px;
+  flex-shrink: 0;
+}
+.bottle-05l2,
 .frame-div3 {
   position: absolute;
-  top: 874px;
-  left: 354px;
-  width: 733px;
   height: 415px;
-  flex-direction: row;
-  gap: var(--gap-xl);
 }
-.product-2-div {
+.bottle-05l2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: calc(50% + 71.5px);
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.frame-div3 {
+  width: 50.9%;
+  top: 874px;
+  right: 24.51%;
+  left: 24.58%;
+}
+.product-3 {
   position: relative;
   background-color: var(--color-black);
   width: 100%;
@@ -560,6 +555,6 @@ body {
   overflow: hidden;
   text-align: center;
   font-size: var(--font-size-sm);
-  color: var(--color-white);
+  color: var(--color-gray-400);
   font-family: var(--font-karma);
 }

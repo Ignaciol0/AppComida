@@ -15,27 +15,24 @@
 
   /* Colors */
   --color-black: #000;
-  --color-white: #fff;
-  --olive-green: #757400;
   --non-vibrant-white: #ddd;
-  --color-gray-200: #d9d9d9;
-  --color-gray-300: #d1d1d1;
-  --color-gray-400: #a7a7a7;
-  --color-gray-500: #8e8e8e;
+  --color-gray-200: #d1d1d1;
+  --color-gray-300: #a7a7a7;
+  --color-gray-400: #8e8e8e;
   --imput-field-gray: #626262;
   --olive-dark-green: #352d00;
-  --color-gray-800: #161616;
+  --footer-background: #161616;
+  --olive-green: #757400;
+  --text-white: #fff;
   --olive-green-highlight: #fffd00;
   --color-gold: #c5c300;
 
   /* Gaps */
-  --gap-2xs: 1px;
-  --gap-xs: 10px;
-  --gap-sm: 20px;
-  --gap-md: 30px;
-  --gap-lg: 45px;
-  --gap-xl: 143px;
-  --gap-2xl: 460px;
+  --gap-xs: 1px;
+  --gap-sm: 10px;
+  --gap-md: 20px;
+  --gap-lg: 30px;
+  --gap-xl: 45px;
 
   /* border radiuses */
   --br-sm: 4px;

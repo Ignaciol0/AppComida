@@ -2,21 +2,16 @@ body {
   margin: 0;
   line-height: normal;
 }
-.rectangle-div18 {
-  position: absolute;
-  width: 100%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: var(--color-gray-800);
-  height: 268px;
-}
 .copyright-ignacio-leal-20223 {
   position: absolute;
-  bottom: 39px;
-  left: 641px;
+  top: 195px;
+  left: calc(50% - 79px);
   text-decoration: underline;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 158px;
+  height: 17px;
 }
 .div15,
 .terms-of-service3 {
@@ -28,32 +23,30 @@ body {
 }
 .div15 {
   font-size: var(--font-size-lg);
-  color: var(--color-white);
+  color: var(--text-white);
 }
 .terms-and-conditions3 {
   position: absolute;
-  width: calc(100% - 1184px);
-  right: 592px;
-  bottom: 81px;
-  left: 592px;
+  top: 147px;
+  left: calc(50% - 128px);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-lg);
-  color: var(--color-gray-400);
+  gap: var(--gap-xl);
+  color: var(--color-gray-300);
 }
-.home-div31 {
+.home49 {
   position: absolute;
   top: 23.81%;
   left: 23.68%;
   font-size: var(--font-size-base);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
 }
-.home-button17 {
+.home48 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -64,60 +57,60 @@ body {
   flex-shrink: 0;
 }
 .div16,
-.home-div32 {
+.home51 {
   position: relative;
   display: inline-block;
 }
-.home-div32 {
+.home51 {
   position: absolute;
   top: 23.81%;
   left: 19.72%;
   font-size: var(--font-size-base);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
 }
-.home-button18 {
+.home50 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: relative;
   width: 137px;
   height: 42px;
   flex-shrink: 0;
 }
-.home-button18,
-.home-button19,
-.home-button20 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-}
-.home-button20 {
+.home53 {
   position: absolute;
   top: 23.81%;
   left: 26.3%;
   font-size: var(--font-size-base);
   font-family: var(--font-karma);
-  color: var(--color-gray-200);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
 }
-.home-button19 {
+.home52 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: relative;
   width: 71px;
   height: 42px;
   flex-shrink: 0;
 }
-.home-div33 {
+.home55 {
   position: absolute;
   top: 23.81%;
   left: 21.96%;
   font-size: var(--font-size-base);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
 }
-.home-button21 {
+.home54 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -127,35 +120,36 @@ body {
   height: 42px;
   flex-shrink: 0;
 }
-.footer-div3 {
+.footer3 {
   position: absolute;
-  width: calc(100% - 864px);
-  right: 432px;
-  bottom: 184px;
-  left: 432px;
+  top: 23px;
+  left: calc(50% - 288px);
+  width: 576px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-md);
+  gap: var(--gap-lg);
   font-size: var(--font-size-2xl);
-  color: var(--color-white);
+  color: var(--text-white);
 }
-.footer-section-div3 {
+.footer-section3 {
   position: absolute;
   width: 100%;
   right: 0;
   bottom: 0;
   left: 0;
-  height: 268px;
+  background-color: var(--footer-background);
+  height: 270px;
+  color: var(--color-gray-400);
 }
-.leal-span2 {
-  color: var(--color-white);
+.leal3 {
+  color: var(--text-white);
 }
-.mora-span3 {
+.mora3 {
   color: var(--olive-green);
 }
-.lealmora-div3 {
+.lealmora3 {
   position: absolute;
   top: 0;
   left: 48px;
@@ -172,42 +166,42 @@ body {
   height: 42px;
   overflow: hidden;
 }
-.logo-button2 {
+.logo3 {
   cursor: pointer;
   border: 0;
   padding: 0;
   background-color: transparent;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 1px;
   width: 208px;
   height: 58px;
-  flex-shrink: 0;
 }
-.home-div34,
-.home-div35,
-.home-div36,
-.home-div37 {
+.home57 {
+  left: 15.79%;
+}
+.home57,
+.home59,
+.home61,
+.home63 {
   position: absolute;
   top: 16.67%;
-  left: 15.79%;
   font-size: var(--font-size-xl);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: inline-block;
 }
-.home-div35,
-.home-div36,
-.home-div37 {
+.home59 {
   left: 9.5%;
 }
-.home-div36,
-.home-div37 {
+.home61 {
   left: 17.85%;
 }
-.home-div37 {
+.home63 {
   left: 12.07%;
 }
-.rectangle-div19 {
+.rectangle-div15 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -218,7 +212,7 @@ body {
   border-radius: var(--br-md);
   background-color: var(--olive-green);
 }
-.sign-up-div3 {
+.sign-up3 {
   position: absolute;
   height: 64.71%;
   width: 80.42%;
@@ -226,13 +220,13 @@ body {
   left: 9.79%;
   font-size: var(--font-size-xl);
   font-family: var(--font-karma);
-  color: var(--color-white);
+  color: var(--text-white);
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.component-1-button3 {
+.component-13 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -242,34 +236,59 @@ body {
   height: 41px;
   flex-shrink: 0;
 }
-.menu-div3,
-.navigation-div3 {
+.menu3 {
+  position: absolute;
+  top: 8px;
+  right: 1px;
+  width: 530px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-.menu-div3 {
-  width: 530px;
-  flex-shrink: 0;
-  gap: var(--gap-xs);
+  gap: var(--gap-sm);
   cursor: pointer;
 }
-.navigation-div3 {
+.navigation3 {
   position: absolute;
+  width: 83.33%;
   top: 56px;
-  left: 120px;
-  width: 1200px;
-  gap: var(--gap-2xl);
+  right: 8.33%;
+  left: 8.33%;
+  height: 58px;
 }
-.payment-gateway-div {
+.refund {
+  color: var(--olive-green-highlight);
+}
+.error-text-div {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  position: absolute;
+  top: 30%;
+  left: calc(40% - 177px);
+  right: calc(40% - 177px);
+  display: inline-block;
+  font-size: var(--font-size-xl);  
+ }
+.oh-no-were-out-of-stock {
+  position: absolute;
+  top: 215px;
+  left: calc(50% - 222px);
+  font-size: var(--font-size-4xl);
+  text-align: left;
+  display: inline-block;
+}
+.payment-gateway {
   position: relative;
   background-color: var(--color-black);
   width: 100%;
-  height: 1221px;
+  height: 1117px;
   overflow: hidden;
   text-align: center;
   font-size: var(--font-size-sm);
-  color: var(--color-gray-500);
+  color: var(--text-white);
   font-family: var(--font-karma);
+}
+.refund{
+  color: #FFFD00;
+  text-decoration: none;
 }

@@ -1,0 +1,621 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.copyright-ignacio-leal-2022 {
+  position: absolute;
+  top: 195px;
+  left: calc(50% - 79px);
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 158px;
+  height: 17px;
+}
+.div,
+.terms-of-service {
+  position: relative;
+  display: inline-block;
+}
+.terms-of-service {
+  text-decoration: underline;
+}
+.div {
+  font-size: var(--font-size-lg);
+  color: var(--text-white);
+}
+.terms-and-conditions {
+  position: absolute;
+  top: 147px;
+  left: calc(50% - 128px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  color: var(--color-gray-300);
+}
+.home1 {
+  position: absolute;
+  top: 23.81%;
+  left: 23.68%;
+  display: inline-block;
+}
+.home {
+  position: relative;
+  width: 76px;
+  height: 42px;
+  flex-shrink: 0;
+  font-size: var(--font-size-base);
+  color: var(--olive-green-highlight);
+}
+.div1,
+.home3 {
+  position: relative;
+  display: inline-block;
+}
+.home3 {
+  position: absolute;
+  top: 23.81%;
+  left: 19.72%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: center;
+}
+.home2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 137px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.home5 {
+  position: absolute;
+  top: 23.81%;
+  left: 26.3%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: center;
+  display: inline-block;
+}
+.home4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 71px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.home7 {
+  position: absolute;
+  top: 23.81%;
+  left: 21.96%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: center;
+  display: inline-block;
+}
+.home6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 91px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.footer {
+  position: absolute;
+  top: 23px;
+  left: calc(50% - 288px);
+  width: 576px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-2xl);
+  color: var(--text-white);
+}
+.footer-section {
+  position: absolute;
+  height: 8.32%;
+  width: 100%;
+  top: 91.68%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--footer-background);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+}
+.memberships,
+.products {
+  position: absolute;
+  top: 956px;
+  left: calc(50% - 117px);
+  display: inline-block;
+}
+.products {
+  top: 1739px;
+  left: calc(50% - 76px);
+}
+.rama-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1426.39px;
+  object-fit: cover;
+}
+.help-your-health-help-your-se {
+  position: absolute;
+  top: 340px;
+  left: 802px;
+  font-size: var(--font-size-2xl);
+  text-align: center;
+  display: inline-block;
+}
+.the-best-way {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.with-spanish-apellation {
+  margin: 0;
+}
+.the-best-way-to-cosume-carbs-i {
+  position: absolute;
+  top: 384px;
+  left: 802px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+}
+.leal {
+  color: var(--text-white);
+}
+.mora {
+  color: var(--olive-green);
+}
+.lealmora {
+  position: absolute;
+  top: 0;
+  left: 48px;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-karma);
+  text-align: left;
+  display: inline-block;
+}
+.fluent-emoji-flatolive-icon {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+}
+.logo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 208px;
+  height: 58px;
+  flex-shrink: 0;
+}
+.home9 {
+  position: absolute;
+  top: 16.67%;
+  left: 15.79%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: center;
+  display: inline-block;
+}
+.home8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 76px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.home11 {
+  left: 9.5%;
+}
+.home11,
+.home13,
+.home15 {
+  position: absolute;
+  top: 16.67%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: center;
+  display: inline-block;
+}
+.home13 {
+  left: 17.85%;
+}
+.home15 {
+  left: 12.07%;
+}
+.rectangle-div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--olive-green);
+}
+.sign-up {
+  position: absolute;
+  height: 64.71%;
+  width: 80.42%;
+  top: 17.65%;
+  left: 9.79%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-karma);
+  color: var(--text-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 113px;
+  height: 41px;
+  flex-shrink: 0;
+}
+.menu,
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  width: 530px;
+  flex-shrink: 0;
+  gap: var(--gap-sm);
+}
+.navigation {
+  position: absolute;
+  width: 83.33%;
+  top: 56px;
+  right: 8.33%;
+  left: 8.33%;
+  gap: 460px;
+}
+.bottle-4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  width: 142px;
+  flex-shrink: 0;
+  background-image: url(./public/bottle4@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bottle-6 {
+  align-self: stretch;
+  width: 150px;
+  background-image: url(./public/bottle6@3x.png);
+}
+.bottle-5,
+.bottle-6,
+.bottle-7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  flex-shrink: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bottle-5 {
+  width: 177px;
+  height: 426px;
+  background-image: url(./public/bottle5@3x.png);
+}
+.bottle-7 {
+  align-self: stretch;
+  width: 141px;
+  background-image: url(./public/bottle7@3x.png);
+}
+.frame-div {
+  position: absolute;
+  top: 1940px;
+  left: calc(50% - 462px);
+  width: 925px;
+  height: 426px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.rectangle-div1,
+.rectangle-div2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--olive-dark-green);
+  height: 330px;
+}
+.rectangle-div2 {
+  height: 100%;
+  bottom: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--non-vibrant-white);
+}
+.purchase {
+  position: absolute;
+  top: 20.45%;
+  left: 39.1%;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  font-family: var(--font-karma);
+  color: var(--olive-green);
+  text-align: left;
+}
+.call-to-action {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 74.68%;
+  top: 268px;
+  right: 12.75%;
+  left: 12.57%;
+  height: 42px;
+}
+.simple1 {
+  position: absolute;
+  top: 28px;
+  left: calc(50% - 45px);
+  display: flex;
+  align-items: center;
+  width: 91px;
+  height: 44px;
+}
+.bottle-per-month-of-choosen-oi {
+  position: absolute;
+  top: 162px;
+  left: 19.14%;
+  font-size: var(--font-size-base);
+  display: inline-block;
+}
+.span {
+  font-size: var(--font-size-2xl);
+}
+.month1 {
+  font-size: var(--font-size-xl);
+}
+.month {
+  position: absolute;
+  top: 72px;
+  left: calc(50% - 63px);
+  display: inline-block;
+  font-size: var(--font-size-4xl);
+}
+.vector-icon {
+  position: absolute;
+  width: 100%;
+  top: 132px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+}
+.rectangle-div3,
+.simple {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.simple {
+  width: 29.99%;
+  right: 70.01%;
+  height: 330px;
+  font-size: var(--font-size-2xl);
+}
+.rectangle-div3 {
+  width: 99.74%;
+  right: 0.26%;
+  border-radius: var(--br-md);
+  background-color: var(--olive-dark-green);
+  height: 439px;
+}
+.call-to-action1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 74.68%;
+  top: 377px;
+  right: 12.78%;
+  left: 12.54%;
+  height: 42px;
+}
+.tasting-kit {
+  position: absolute;
+  top: 36.9%;
+  left: 39.04%;
+  display: inline-block;
+}
+.bottle-per-month-of-choosen-oi1,
+.recipy-book-for-cooking-with-o {
+  position: absolute;
+  top: 48.75%;
+  left: 19.09%;
+  display: inline-block;
+}
+.recipy-book-for-cooking-with-o {
+  top: 60.59%;
+  left: 18.81%;
+  text-align: center;
+}
+.off-in-oils {
+  font-size: var(--font-size-base);
+}
+.off-in-oils-skincare-products {
+  position: absolute;
+  top: 72.44%;
+  left: 18.24%;
+  display: inline-block;
+  font-size: var(--font-size-xl);
+}
+.economic1 {
+  position: absolute;
+  top: 28px;
+  left: calc(50% - 65.45px);
+  font-size: var(--font-size-2xl);
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 44px;
+}
+.month-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.month2 {
+  position: absolute;
+  top: 72px;
+  left: calc(50% - 63.45px);
+  display: flex;
+  align-items: center;
+  width: 126px;
+  height: 58px;
+  font-size: var(--font-size-4xl);
+}
+.vector-icon1 {
+  position: absolute;
+  width: 99.74%;
+  top: 132px;
+  right: 0;
+  left: 0.26%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+}
+.economic {
+  position: absolute;
+  width: 30.07%;
+  top: 0;
+  right: 34.71%;
+  left: 35.22%;
+  background-color: var(--olive-dark-green);
+  height: 439px;
+  color: var(--text-white);
+}
+.call-to-action2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 82.57%;
+  top: 268px;
+  right: 8.57%;
+  left: 8.86%;
+  height: 42px;
+}
+.all-economic-perks {
+  position: absolute;
+  top: 216px;
+  left: 32.29%;
+  display: inline-block;
+}
+.premium1 {
+  position: absolute;
+  top: 28px;
+  left: calc(50% - 62px);
+  font-size: var(--font-size-2xl);
+  display: flex;
+  align-items: center;
+  width: 125px;
+  height: 44px;
+}
+.bottle-per-week-of-choosen-oil {
+  position: absolute;
+  top: 162px;
+  left: 20.57%;
+  display: inline-block;
+}
+.vector-icon2 {
+  width: 100%;
+  top: 131.5px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+}
+.memberships1,
+.premium,
+.vector-icon2 {
+  position: absolute;
+}
+.premium {
+  width: 29.99%;
+  top: 0;
+  right: 0;
+  left: 70.01%;
+  height: 330px;
+}
+.memberships1 {
+  width: 81.04%;
+  top: 1100px;
+  right: 9.44%;
+  left: 9.51%;
+  height: 439px;
+  font-size: var(--font-size-base);
+  color: var(--non-vibrant-white);
+}
+.index1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 3016px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--text-white);
+  font-family: var(--font-karma);
+}
