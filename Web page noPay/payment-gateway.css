@@ -288,7 +288,7 @@ body {
   color: var(--text-white);
   font-family: var(--font-karma);
 }
-.refund{
+.link{
   color: #FFFD00;
   text-decoration: none;
 }

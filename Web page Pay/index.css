@@ -363,8 +363,21 @@ body {
   justify-content: center;
   gap: 100px;
 }
-.rectangle-div1,
-.rectangle-div2 {
+.index1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 3016px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--text-white);
+  font-family: var(--font-karma);
+}
+/* Members Section Css code*/
+
+.rectangle-div-members,
+.members-purchase-button {
   position: absolute;
   width: 100%;
   top: 0;
@@ -374,13 +387,13 @@ body {
   background-color: var(--olive-dark-green);
   height: 330px;
 }
-.rectangle-div2 {
+.members-purchase-button {
   height: 100%;
   bottom: 0;
   border-radius: var(--br-lg);
   background-color: var(--non-vibrant-white);
 }
-.purchase {
+.purchase-text {
   position: absolute;
   top: 20.45%;
   left: 39.1%;
@@ -390,7 +403,7 @@ body {
   color: var(--olive-green);
   text-align: left;
 }
-.call-to-action {
+.call-to-action-member1 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -402,7 +415,7 @@ body {
   left: 12.57%;
   height: 42px;
 }
-.simple1 {
+.simple-title {
   position: absolute;
   top: 28px;
   left: calc(50% - 45px);
@@ -411,56 +424,40 @@ body {
   width: 91px;
   height: 44px;
 }
-.bottle-per-month-of-choosen-oi {
+.simple-perk1 {
   position: absolute;
   top: 162px;
-  left: 19.14%;
+  left: 19%;
+  right: 19%;
   font-size: var(--font-size-base);
   display: inline-block;
 }
-.span {
+.monthly-price-simbols {
   font-size: var(--font-size-2xl);
 }
-.month1 {
+.month {
   font-size: var(--font-size-xl);
 }
-.month {
+.month6 {
   position: absolute;
   top: 72px;
   left: calc(50% - 63px);
   display: inline-block;
   font-size: var(--font-size-4xl);
 }
-.vector-icon {
-  position: absolute;
-  width: 100%;
-  top: 132px;
-  right: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  height: 1px;
-}
-.rectangle-div3,
-.simple {
+.simple-div {
   position: absolute;
   top: 0;
   left: 0;
 }
-.simple {
+.simple-div {
   width: 29.99%;
   right: 70.01%;
   height: 330px;
   font-size: var(--font-size-2xl);
 }
-.rectangle-div3 {
-  width: 99.74%;
-  right: 0.26%;
-  border-radius: var(--br-md);
-  background-color: var(--olive-dark-green);
-  height: 439px;
-}
-.call-to-action1 {
+
+.call-to-action-member2 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -472,35 +469,39 @@ body {
   left: 12.54%;
   height: 42px;
 }
-.tasting-kit {
+.economic-perks1{
   position: absolute;
   top: 36.9%;
-  left: 39.04%;
+  left: 19%;
+  right: 19%;
   display: inline-block;
 }
-.bottle-per-month-of-choosen-oi1,
-.recipy-book-for-cooking-with-o {
+.economic-perks2 {
   position: absolute;
   top: 48.75%;
-  left: 19.09%;
+  left: 19%;
+  right: 19%;
   display: inline-block;
 }
-.recipy-book-for-cooking-with-o {
+.economic-perks3 {
+  position: absolute;
   top: 60.59%;
-  left: 18.81%;
-  text-align: center;
+  left: 19%;
+  right: 19%;
+  display: inline-block;
+  font-size: var(--font-size-xl);
 }
-.off-in-oils {
+.economic-perks3-text {
   font-size: var(--font-size-base);
 }
-.off-in-oils-skincare-products {
+.economic-perks4 {
   position: absolute;
   top: 72.44%;
   left: 18.24%;
   display: inline-block;
-  font-size: var(--font-size-xl);
 }
-.economic1 {
+
+.economic-title {
   position: absolute;
   top: 28px;
   left: calc(50% - 65.45px);
@@ -510,11 +511,11 @@ body {
   width: 130px;
   height: 44px;
 }
-.month-txt {
+.month-txt1 {
   line-break: anywhere;
   width: 100%;
 }
-.month2 {
+.monthly-price {
   position: absolute;
   top: 72px;
   left: calc(50% - 63.45px);
@@ -524,9 +525,9 @@ body {
   height: 58px;
   font-size: var(--font-size-4xl);
 }
-.vector-icon1 {
+.members-vector-icon{
   position: absolute;
-  width: 99.74%;
+  width: 100%;
   top: 132px;
   right: 0;
   left: 0.26%;
@@ -534,7 +535,7 @@ body {
   overflow: hidden;
   height: 1px;
 }
-.economic {
+.economic-div {
   position: absolute;
   width: 30.07%;
   top: 0;
@@ -544,7 +545,7 @@ body {
   height: 439px;
   color: var(--text-white);
 }
-.call-to-action2 {
+.call-to-action-member3 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -556,13 +557,14 @@ body {
   left: 8.86%;
   height: 42px;
 }
-.all-economic-perks {
+.premium-perks2 {
   position: absolute;
   top: 216px;
-  left: 32.29%;
+  left: 19%;
+  right: 19%;
   display: inline-block;
 }
-.premium1 {
+.premium-title {
   position: absolute;
   top: 28px;
   left: calc(50% - 62px);
@@ -572,34 +574,26 @@ body {
   width: 125px;
   height: 44px;
 }
-.bottle-per-week-of-choosen-oil {
+.premium-perks1{
   position: absolute;
   top: 162px;
-  left: 20.57%;
+  left: 19%;
+  right: 19%;
   display: inline-block;
 }
-.vector-icon2 {
-  width: 100%;
-  top: 131.5px;
-  right: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  height: 1px;
-}
-.memberships1,
-.premium,
-.vector-icon2 {
+
+.memberships,
+.premium-div {
   position: absolute;
 }
-.premium {
+.premium-div {
   width: 29.99%;
   top: 0;
   right: 0;
   left: 70.01%;
   height: 330px;
 }
-.memberships1 {
+.memberships {
   width: 81.04%;
   top: 1100px;
   right: 9.44%;
@@ -608,14 +602,25 @@ body {
   font-size: var(--font-size-base);
   color: var(--non-vibrant-white);
 }
-.index1 {
+.memberships-title {
+  position: absolute;
+  top: 956px;
+  left: calc(50% - 117px);
+  font-size: var(--font-size-4xl);
+  display: inline-block;
+}
+.leal1,
+.memberships-title {
+  color: var(--text-white);
+}
+.members {
   position: relative;
   background-color: var(--color-black);
   width: 100%;
-  height: 3016px;
+  height: 1221px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-4xl);
-  color: var(--text-white);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
   font-family: var(--font-karma);
 }

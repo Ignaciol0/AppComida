@@ -144,8 +144,9 @@ body {
   background-color: var(--footer-background);
   text-align: center;
 }
-.rectangle-div7,
-.rectangle-div8 {
+
+.rectangle-div-members,
+.members-purchase-button {
   position: absolute;
   width: 100%;
   top: 0;
@@ -155,13 +156,13 @@ body {
   background-color: var(--olive-dark-green);
   height: 330px;
 }
-.rectangle-div8 {
+.members-purchase-button {
   height: 100%;
   bottom: 0;
   border-radius: var(--br-lg);
   background-color: var(--non-vibrant-white);
 }
-.purchase3 {
+.purchase-text {
   position: absolute;
   top: 20.45%;
   left: 39.1%;
@@ -171,7 +172,7 @@ body {
   color: var(--olive-green);
   text-align: left;
 }
-.call-to-action3 {
+.call-to-action-member1 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -213,17 +214,6 @@ body {
   display: inline-block;
   font-size: var(--font-size-4xl);
 }
-.vector-icon3 {
-  position: absolute;
-  width: 100%;
-  top: 132px;
-  right: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  height: 1px;
-}
-.rectangle-div9,
 .simple-div {
   position: absolute;
   top: 0;
@@ -235,14 +225,8 @@ body {
   height: 330px;
   font-size: var(--font-size-2xl);
 }
-.rectangle-div9 {
-  width: 99.74%;
-  right: 0.26%;
-  border-radius: var(--br-md);
-  background-color: var(--olive-dark-green);
-  height: 439px;
-}
-.call-to-action4 {
+
+.call-to-action-member2 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -310,9 +294,9 @@ body {
   height: 58px;
   font-size: var(--font-size-4xl);
 }
-.vector-icon4 {
+.members-vector-icon{
   position: absolute;
-  width: 99.74%;
+  width: 100%;
   top: 132px;
   right: 0;
   left: 0.26%;
@@ -330,7 +314,7 @@ body {
   height: 439px;
   color: var(--text-white);
 }
-.call-to-action5 {
+.call-to-action-member3 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -366,18 +350,9 @@ body {
   right: 19%;
   display: inline-block;
 }
-.vector-icon5 {
-  width: 100%;
-  top: 131.5px;
-  right: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  height: 1px;
-}
+
 .memberships,
-.premium-div,
-.vector-icon5 {
+.premium-div {
   position: absolute;
 }
 .premium-div {

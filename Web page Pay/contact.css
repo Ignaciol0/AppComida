@@ -304,6 +304,7 @@ body {
   top: 26px;
   border-radius: var(--br-sm);
   height: 23px;
+  color: white;
 }
 .form-field-name {
   top: 0;
@@ -344,6 +345,7 @@ body {
   left: 0;
   border-radius: var(--br-sm);
   height: 23px;
+  color: white;
 }
 .form-field-email {
   position: absolute;
@@ -372,6 +374,7 @@ body {
   left: 0;
   border-radius: var(--br-sm);
   height: 196px;
+  color: white;
 }
 .form-field-message {
   position: absolute;
