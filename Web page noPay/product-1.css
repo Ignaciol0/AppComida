@@ -191,6 +191,9 @@ body {
   text-align: center;
   display: inline-block;
 }
+.home93:hover, .home95:hover, .home89:hover, .home91:hover{
+  color: var(--olive-green-highlight);
+}
 .home91 {
   left: 9.5%;
 }
@@ -200,41 +203,6 @@ body {
 .home95 {
   left: 12.07%;
 }
-.rectangle-div17 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-md);
-  background-color: var(--olive-green);
-}
-.sign-up5 {
-  position: absolute;
-  height: 64.71%;
-  width: 80.42%;
-  top: 17.65%;
-  left: 9.79%;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-karma);
-  color: var(--text-white);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.component-15 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  width: 113px;
-  height: 41px;
-  flex-shrink: 0;
-}
 .menu5 {
   position: absolute;
   top: 8px;
@@ -243,7 +211,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   gap: var(--gap-sm);
   cursor: pointer;
 }
@@ -365,6 +333,7 @@ body {
   align-items: center;
   width: 193px;
   height: 20px;
+  white-space: nowrap;
 }
 .vector-icon6 {
   position: absolute;
@@ -379,7 +348,7 @@ body {
   left: calc(50% - 262.59px);
   width: 221px;
   height: 26px;
-  color: var(--olive-green);
+  color: var(--olive-green-highlight);
 }
 .virgin-extra-olive-oil-250ml-b {
   position: absolute;

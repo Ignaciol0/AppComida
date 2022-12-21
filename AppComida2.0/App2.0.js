@@ -35,7 +35,7 @@ empanadillas = {'name':'empanadillas','plato_unico': false,'type':'carne','weigh
 pechuga_tomate = {'name':'pechuga_tomate','plato_unico': false,'type':'carne','weight':1}
 fingers_pollo = {'name':'fingers_pollo','plato_unico': false,'type':'carne','weight':1}
 carne_gisada = {'name':'carne_gisada','plato_unico': false,'type':'carne','weight':1}
-segundos_platos = [atun,salmon,merluza,panga,fingers_pollo,fingers_pollo,filete_ternera,cinta_lomo,carne_gisada,carne_picada,pechuga_tomate,pechuga_tomate,chuleta_sajonia,tortilla_patatas,solomillo_tomate,croquetas,empanadillas]
+segundos_platos = [atun,salmon,merluza,panga,fingers_pollo,filete_ternera,cinta_lomo,carne_gisada,carne_picada,pechuga_tomate,chuleta_sajonia,tortilla_patatas,solomillo_tomate,croquetas,empanadillas]
 
 //Adds all the weights of the dishes
 function countweight(primeros_platos) {

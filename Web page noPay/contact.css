@@ -193,6 +193,9 @@ body {
   text-align: center;
   display: inline-block;
 }
+.home75:hover, .home73:hover, .home77:hover, .home79:hover{
+  color: var(--olive-green-highlight);
+}
 .home75 {
   left: 9.5%;
 }
@@ -202,41 +205,6 @@ body {
 .home79 {
   left: 12.07%;
 }
-.rectangle-div16 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-md);
-  background-color: var(--olive-green);
-}
-.sign-up4 {
-  position: absolute;
-  height: 64.71%;
-  width: 80.42%;
-  top: 17.65%;
-  left: 9.79%;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-karma);
-  color: var(--text-white);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.component-14 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  width: 113px;
-  height: 41px;
-  flex-shrink: 0;
-}
 .menu4 {
   position: absolute;
   top: 8px;
@@ -245,9 +213,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   gap: var(--gap-sm);
   cursor: pointer;
+  justify-content: right;
 }
 .navigation4 {
   position: absolute;

@@ -428,6 +428,9 @@ body {
   text-align: center;
   display: inline-block;
 }
+.home25:hover, .home27:hover, .home29:hover, .home31:hover{
+  color: var(--olive-green-highlight);
+}
 .home27 {
   left: 9.5%;
 }
@@ -437,41 +440,6 @@ body {
 .home31 {
   left: 12.07%;
 }
-.rectangle-div13 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-md);
-  background-color: var(--olive-green);
-}
-.sign-up1 {
-  position: absolute;
-  height: 64.71%;
-  width: 80.42%;
-  top: 17.65%;
-  left: 9.79%;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-karma);
-  color: var(--text-white);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.component-11 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  width: 113px;
-  height: 41px;
-  flex-shrink: 0;
-}
 .menu1 {
   position: absolute;
   top: 8px;
@@ -480,8 +448,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   gap: var(--gap-sm);
+  justify-content: right;
 }
 .navigation1 {
   position: absolute;

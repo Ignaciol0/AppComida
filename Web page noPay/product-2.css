@@ -118,40 +118,8 @@ body {
   height: 42px;
   flex-shrink: 0;
 }
-.rectangle-div18 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: var(--br-md);
-  background-color: var(--olive-green);
-}
-.sign-up6 {
-  position: absolute;
-  height: 64.71%;
-  width: 80.42%;
-  top: 17.65%;
-  left: 9.79%;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-karma);
-  color: var(--text-white);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.component-16 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: relative;
-  width: 113px;
-  height: 41px;
-  flex-shrink: 0;
+.home97:hover, .home103:hover, .home99:hover, .home101:hover{
+  color: var(--olive-green-highlight);
 }
 .menu6 {
   position: absolute;
@@ -161,7 +129,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   gap: var(--gap-sm);
   cursor: pointer;
 }
@@ -281,6 +249,7 @@ body {
   align-items: center;
   width: 193px;
   height: 20px;
+  white-space: nowrap;
 }
 .vector-icon7 {
   position: absolute;
@@ -295,7 +264,7 @@ body {
   right: 306.18px;
   width: 221px;
   height: 26px;
-  color: var(--olive-green);
+  color: var(--olive-green-highlight);
 }
 .virgin-extra-olive-oil-500ml-b {
   position: absolute;
